@@ -1,4 +1,4 @@
-## ESP32 Traffic Light State Machine
+## ESP32 Traffic Light State Machine :traffic_light:
 
 This project implements a basic traffic light system on an ESP32 microcontroller using the state machine pattern. The traffic light cycles through red, yellow, and green states with configurable durations for each phase.
 
