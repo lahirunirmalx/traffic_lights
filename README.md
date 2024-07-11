@@ -32,12 +32,13 @@ Green LED: ESP32 pin (e.g., GPIO27) - resistor - GND
 **Installation**
 
 1. Download this repository.
-2. Open the `ESP32_Traffic_Light.ino` file in the Arduino IDE.
-3. Replace `PIN_RED`, `PIN_YELLOW`, and `PIN_GREEN` with the actual ESP32 pin numbers connected to your LEDs.
-4. Adjust the `RED_DURATION`, `YELLOW_DURATION`, and `GREEN_DURATION` constants to your desired timing for each light phase in milliseconds.
-5. Connect the ESP32 board to your computer.
-6. Select the appropriate ESP32 board and serial port in the Arduino IDE.
-7. Upload the code to the ESP32 board.
+2. Open the `traffic_lights.ino` file in the Arduino IDE.
+3. Replace `RED`, `YELLOW`, and `GREEN` with the actual ESP32 pin numbers connected to your LEDs.
+4. Adjust the `STOP_DELAY`, `WAIT_DELAY`, and `GO_DELAY` constants to your desired timing for each light phase in milliseconds.
+5. Adjust  `GO_WAIT_BLINKS`,  and `IDEL_BLINK_DELAY` constants to your desired timing for blinking delayes phase in milliseconds.
+6. Connect the ESP32 board to your computer.
+7. Select the appropriate ESP32 board and serial port in the Arduino IDE.
+8. Upload the code to the ESP32 board.
 
 **Usage**
 
